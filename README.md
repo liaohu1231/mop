@@ -1,7 +1,10 @@
 # mop
 Pipeline to integrate and process metagenomics, metatranscriptomics, and metaproteomics dataset
 
-### **commands to install dependencies through anaconda**
+## **Introduction**
+MoP is a pipeline that integrates metagenomics, metatranscriptomics and metaproteomics data and uses all datasets to obtain a broader set of useful and insightful information from the samples. This information can be further used to answer biologically relevant questions related to the data. 
+
+### **Commands to install dependencies through anaconda**
 ```
 Trimmomatic: conda install -c bioconda trimmomatic
 Bowtie2: conda install -c bioconda bowtie2 
@@ -16,3 +19,7 @@ Samtools: conda install -c bioconda samtools
 Bedtools: conda install -c bioconda bedtools 
 Metabat2: conda install -c ursky metabat2 
 ```
+
+### **How to run?**
+
+### **Output
