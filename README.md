@@ -2,7 +2,7 @@
 Pipeline to integrate and process metagenomics, metatranscriptomics, and metaproteomics dataset
 
 ## **Anaconda dependencies installation**
-
+```
 Trimmomatic: conda install -c bioconda trimmomatic
 Bowtie2: conda install -c bioconda bowtie2 
 CD-HIT: conda install -c bioconda cd-hit 
@@ -15,4 +15,4 @@ MSGF+: conda install -c bioconda msgf_plus
 Samtools: conda install -c bioconda samtools
 Bedtools: conda install -c bioconda bedtools 
 Metabat2: conda install -c ursky metabat2 
-
+```
