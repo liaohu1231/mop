@@ -1,7 +1,7 @@
 # mop
 Pipeline to integrate and process metagenomics, metatranscriptomics, and metaproteomics dataset
 
-## **Anaconda dependencies installation**
+### **commands to install dependencies through anaconda**
 ```
 Trimmomatic: conda install -c bioconda trimmomatic
 Bowtie2: conda install -c bioconda bowtie2 
