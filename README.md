@@ -1,7 +1,7 @@
 # mop
 Pipeline to integrate and process metagenomics, metatranscriptomics, and metaproteomics dataset
 
-## **Introduction**
+### **Introduction**
 MoP is a pipeline that integrates metagenomics, metatranscriptomics and metaproteomics data and uses all datasets to obtain a broader set of useful and insightful information from the samples. This information can be further used to answer biologically relevant questions related to the data. 
 
 ### **Commands to install dependencies through anaconda**
