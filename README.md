@@ -21,5 +21,6 @@ Metabat2: conda install -c ursky metabat2
 ```
 
 ### **How to run?**
+*Note: this pipeline will only work with PAIRED-END metagenomic and metatranscriptomic reads. The metaproteomic file needs to be in mzML format (msconvert from proteowizardtools with peakpicking is recommended for converting from raw to mzML)*
 
 ### **Output**
