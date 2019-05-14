@@ -22,4 +22,4 @@ Metabat2: conda install -c ursky metabat2
 
 ### **How to run?**
 
-### **Output
+### **Output**
