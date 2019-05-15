@@ -19,21 +19,27 @@ Samtools: conda install -c bioconda samtools
 Bedtools: conda install -c bioconda bedtools 
 Metabat2: conda install -c ursky metabat2 
 ```
+### **What is needed?**
+
+- Raw or quality and host filtered PAIRED-END metagenomics and metatranscriptomics read files
+- Metaproteomics file in mzML format 
+
+*Note: this pipeline will only work with PAIRED-END metagenomic and metatranscriptomic reads. The metaproteomic file needs to be in mzML format (msconvert from proteowizardtools with peakpicking is recommended for converting from raw to mzML)*
+
+- Host genome/transcriptome placed in the Databases directory
+- Index database for Centrifuge in the Databases directory
 
 ### **How to run?**
-*Note: this pipeline will only work with PAIRED-END metagenomic and metatranscriptomic reads. The metaproteomic file needs to be in mzML format (msconvert from proteowizardtools with peakpicking is recommended for converting from raw to mzML)*
 
 $ git clone https://github.com/mop-multi-omics-pipeline/mop.git
 $ cd scripts
 
 ###### There are two options to run the pipeline: from raw files use '-a' or from files that have been quality and host genome filtered use '-p'
 
-###### Provide FULL paths for every argument needed; contig size min allowed is 1500
+###### Provide FULL paths for every argument; contig size min allowed is 1500
 
 $ ./MoP_pipeline.sh mG-forward mG-reverse mT-forward mT-reverse mP-mzML mG-hostread-db mT-hostread-db \
                     centrifuge-db out-dir [-a/-p] contig-min-size
-
-
 
 ### **Output**
 - Host reads
