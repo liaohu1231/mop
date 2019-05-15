@@ -26,8 +26,9 @@ Metabat2: conda install -c ursky metabat2
 
 *Note: this pipeline will only work with PAIRED-END metagenomic and metatranscriptomic reads. The metaproteomic file needs to be in mzML format (msconvert from proteowizardtools with peakpicking is recommended for converting from raw to mzML)*
 
+- Pfam.hmm -> follow the instructions for downloading in Databases/hmmer_dbs/how_to_download
 - Host genome/transcriptome placed in the Databases directory
-- Index database for Centrifuge in the Databases directory
+- Indexed database for Centrifuge in the Databases directory
 
 ### **How to run?**
 
