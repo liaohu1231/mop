@@ -23,6 +23,7 @@ Metabat2: conda install -c ursky metabat2
 ### **How to run?**
 *Note: this pipeline will only work with PAIRED-END metagenomic and metatranscriptomic reads. The metaproteomic file needs to be in mzML format (msconvert from proteowizardtools with peakpicking is recommended for converting from raw to mzML)*
 
+$ git clone https://github.com/mop-multi-omics-pipeline/mop.git
 $ cd scripts
 
 ###### There are two options to run the pipeline: from raw files use '-a' or from files that have been quality and host genome filtered use '-p'
@@ -31,6 +32,7 @@ $ cd scripts
 
 $ ./MoP_pipeline.sh mG-forward mG-reverse mT-forward mT-reverse mP-mzML mG-hostread-db mT-hostread-db \
                     centrifuge-db out-dir [-a/-p] contig-min-size
+
 
 
 ### **Output**
