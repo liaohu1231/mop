@@ -26,13 +26,15 @@ Metabat2: conda install -c ursky metabat2
 
 *Note: this pipeline will only work with PAIRED-END metagenomic and metatranscriptomic reads. The metaproteomic file needs to be in mzML format (msconvert from proteowizardtools with peakpicking is recommended for converting from raw to mzML)*
 
-- Pfam.hmm -> follow the instructions for downloading in Databases/hmmer_dbs/how_to_download
-- Host genome/transcriptome placed in the Databases directory
-- Indexed database for Centrifuge in the Databases directory
+- Pfam.hmm -> follow the instructions for downloading in databases/hmmer_dbs/how_to_download
+- Host genome/transcriptome placed in the databases directory
+- Indexed database for Centrifuge in the databases directory
 
 ### **How to run?**
 
 $ git clone https://github.com/mop-multi-omics-pipeline/mop.git
+
+$ cd mop
 
 $ cd scripts
 
