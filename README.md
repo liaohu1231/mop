@@ -32,6 +32,7 @@ Metabat2: conda install -c ursky metabat2
 ### **How to run?**
 
 $ git clone https://github.com/mop-multi-omics-pipeline/mop.git
+
 $ cd scripts
 
 ###### There are two options to run the pipeline: from raw files use '-a' or from files that have been quality and host genome filtered use '-p'
