@@ -38,6 +38,8 @@ $ cd mop
 
 $ cd scripts
 
+###### Change permissions of files to executable 
+
 ###### There are two options to run the pipeline: from raw files use '-a' or from files that have been quality and host genome filtered use '-p'
 
 ###### Provide FULL paths for every argument; contig size min allowed is 1500
