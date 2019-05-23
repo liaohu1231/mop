@@ -51,6 +51,7 @@ $ ./MoP_pipeline.sh mG-forward mG-reverse mT-forward mT-reverse mP-mzML mG-hostr
 - Host reads
 - Host-free reads
 - Taxonomic profiles
+- Co-assembled contigs and scaffolds
 - Contig bins
 - Predicted ORFs and protein sequences
 - Protein database with pfam identifiers (fasta)
