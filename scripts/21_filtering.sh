@@ -4,7 +4,7 @@
 #for metatranscriptome analysis use hg38 TRANSCRIPTOME FASTA FILE (rna file) as input  
 #usage: ./datafiltering.sh fastq_forward_reads_path fastq_reverse_reads_path path_to_hg38.fa output_path  
 
-#Make sure befor using this script that Bowtie2 is loaded. Use the following script for installing if not.
+#Make sure before using this script that Bowtie2 is loaded. Use the following script for installing if not.
 #conda install bowtie2
 
 
