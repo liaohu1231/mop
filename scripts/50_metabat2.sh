@@ -1,8 +1,7 @@
 #!/bin/bash
 
-#usage: ./50_metabat2.sh assembled_contig.fa sam_file min_contig_sz out_dir > 50_metabat.log
-#./50_metabat2.sh ../data/co-assembly/assembly/contig.fa ../data/co-assembly/final-merged-1.fastq 
-#                 ../data/co-assembly/final-merged-2.fastq 2500 try_indx > out
+#usage: ./50_metabat2.sh assembled_contig.fa forward_reads.fastq reverse_reads.fastq min_contig_sz out_dir > 50_metabat.log
+
 contig_file=$1
 forward_reads=$2
 reverse_reads=$3
@@ -19,7 +18,7 @@ mkdir -p $metabat_dir
 mkdir -p $binning_dir
 
 #need to create an index for sam files; create sam files w/bowtie2
-#bowtie2-build $contig_file $index_dir/assembly_indx
+bowtie2-build $contig_file $index_dir/assembly_indx
 bowtie2 -x $index_dir/assembly_indx -1 $forward_reads \
         -2 $reverse_reads -S $metabat_dir/mt_mg.sam
 
